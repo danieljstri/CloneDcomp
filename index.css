@@ -1,0 +1,42 @@
+* {
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#sistemas {
+    color: brown;
+    background-image: url("images/shit.jpg");
+}
+#sistemas:hover {
+    opacity: 1;
+    background: blue;
+    transition: 5s
+}
+
+#ciência {
+    color: blue;
+    background-image: url("images/pcn.jpg ");
+}
+
+#engenharia {
+    color: chocolate;
+    background-image: url("images/FbhH2zJXgAA6xPa.jpg");
+}
+
+.hero-btn {
+    color: chocolate;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+}
+.hero-btn:hover{
+    background: blue;
+    transition: 1s;
+}
