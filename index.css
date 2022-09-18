@@ -5,38 +5,57 @@
 }
 
 .container {
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }
 
 #sistemas {
+    font-weight: bold;
     color: brown;
     background-image: url("images/shit.jpg");
 }
-#sistemas:hover {
-    opacity: 1;
-    background: blue;
-    transition: 5s
-}
 
 #ciência {
+    font-weight: bold;
     color: blue;
     background-image: url("images/pcn.jpg ");
 }
 
 #engenharia {
+    font-weight: bold;
     color: chocolate;
-    background-image: url("images/FbhH2zJXgAA6xPa.jpg");
+    background-image: url("images/cacete.jpg");
 }
 
 .hero-btn {
     color: chocolate;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
     background: transparent;
     position: relative;
 }
 .hero-btn:hover{
-    background: blue;
+    background: black;
     transition: 1s;
+}
+
+#info2 {
+    display: flex;
+    justify-content: center;
+}
+
+#imgfinal {
+    background-image: url("images/vaches.png");
+    padding: 100px;
+    font-weight: bold;
+}
+
+#btnfinal {
+    padding: 10px;
+}
+
+#btnfinal:hover {
+    background: blue;
+    transition: 2s;
 }
