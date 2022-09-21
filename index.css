@@ -13,19 +13,19 @@
 #sistemas {
     font-weight: bold;
     color: brown;
-    background-image: url("images/shit.jpg");
+    background-image: url("images/Sistemas.jpeg");
 }
 
 #ciência {
     font-weight: bold;
-    color: blue;
-    background-image: url("images/pcn.jpg ");
+    color: gold;
+    background-image: url("images/ciencia.jpeg");
 }
 
 #engenharia {
     font-weight: bold;
     color: chocolate;
-    background-image: url("images/cacete.jpg");
+    background-image: url("images/engenharia.jpg");
 }
 
 .hero-btn {
@@ -46,7 +46,7 @@
 }
 
 #imgfinal {
-    background-image: url("images/vaches.png");
+    background-image: url("images/reuniaobraba.jpg");
     padding: 100px;
     font-weight: bold;
 }
